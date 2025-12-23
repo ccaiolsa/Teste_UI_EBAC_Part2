@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ccaiolsa/Teste_UI_EBAC_Part2#readme",
   "dependencies": {
     "cypress": "^15.8.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0"
   }
 }
