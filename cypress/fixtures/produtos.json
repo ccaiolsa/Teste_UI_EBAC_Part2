@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Mach Street Sweatshirt",
+        "tamanho": "S",
+        "cor": "Blue",
+        "quantidade": 3
+
+    },
+
+    {
+        "nome": "Grayson Crewneck Sweatshirt",
+        "tamanho": "M",
+        "cor": "Orange",
+        "quantidade": 2
+    },
+
+    {
+        "nome": "Marco Lightweight Active Hoodie",
+        "tamanho": "XL",
+        "cor": "Lavender",
+        "quantidade": 4
+    }
+]

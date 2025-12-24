@@ -16,8 +16,11 @@ class ProdutosPage{
 
     }
 
-    add_produto_carrinho(){
-
+    add_produto_carrinho(tamanho, cor, quantidade){
+        cy.get('.button-variable-item-' + tamanho).click()
+        cy.get(`.button-variable-item-${cor}`).click()
+        cy.get('[name="quantity"]').clear().type(quantidade)
+        cy.get('.single_add_to_cart_button').click()
     }
 
 }
